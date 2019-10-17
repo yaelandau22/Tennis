@@ -1,0 +1,234 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 1770,
+      "max": [
+        552.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "buffer-0-group-0-mesh-0-indices",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 553,
+      "max": [
+        0.0957942008972168,
+        0.12462799996137619,
+        0.06167219951748848
+      ],
+      "min": [
+        -0.06939920037984848,
+        -0.12399899959564209,
+        -0.06325049698352814
+      ],
+      "name": "buffer-0-group-0-mesh-0-position",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 6636,
+      "componentType": 5126,
+      "count": 553,
+      "max": [
+        0.9829019904136658,
+        0.9337642788887024,
+        0.9985551834106445
+      ],
+      "min": [
+        -0.9826627969741821,
+        -0.9353423714637756,
+        -0.9171358346939087
+      ],
+      "name": "buffer-0-group-0-mesh-0-normal",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 553,
+      "max": [
+        0.9935969710350037,
+        -0.01578330062329769
+      ],
+      "min": [
+        0.008605560287833214,
+        -0.9884139895439148
+      ],
+      "name": "buffer-0-group-0-mesh-0-texcoord",
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Obj2GltfConverter",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 3540,
+      "byteOffset": 0,
+      "name": "buffer-0-bufferview-ushort",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 13272,
+      "byteOffset": 3540,
+      "byteStride": 12,
+      "name": "buffer-0-bufferview-vec3",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4424,
+      "byteOffset": 16816,
+      "byteStride": 8,
+      "name": "buffer-0-bufferview-vec2",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 21240,
+      "name": "buffer-0",
+      "uri": "PADDLE.bin"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/jpeg",
+      "name": "PADDLE-base-image",
+      "uri": "C:/Users/pawel.filip/Desktop/PADDLE/PADDLE_base.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "PADDLE-metallic_roughness-image",
+      "uri": "PADDLE_metallic_roughness.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "PADDLE-normal-image",
+      "uri": "PADDLE_normal.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "PADDLE-occlusion-image",
+      "uri": "PADDLE_occlusion.jpg"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "PADDLE",
+      "normalTexture": {
+        "index": 2,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 3,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "buffer-0-mesh-0",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "node-0"
+    }
+  ],
+  "samplers": [
+    {
+      "name": "PADDLE-base-sampler",
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "PADDLE-metallic_roughness-sampler",
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "PADDLE-normal-sampler",
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "PADDLE-occlusion-sampler",
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scenes": [
+    {
+      "name": "scene-0",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "PADDLE-base-texture",
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "name": "PADDLE-metallic_roughness-texture",
+      "sampler": 1,
+      "source": 1
+    },
+    {
+      "name": "PADDLE-normal-texture",
+      "sampler": 2,
+      "source": 2
+    },
+    {
+      "name": "PADDLE-occlusion-texture",
+      "sampler": 3,
+      "source": 3
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+This project uses the following items from Poly (http://poly.google.com):
+
+Title: 360tennis
+Author: César Urrutia
+URL: https://poly.google.com/view/9sYfazhh3D1
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Arrow3
+Author: Bharadwaj B
+URL: https://poly.google.com/view/coE6b0yp-P6
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Tennis court
+Author: Poly by Google
+URL: https://poly.google.com/view/7cVH1Xt-LYy
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: test
+Author: Dofl Yun
+URL: https://poly.google.com/view/9N3Y65likW2
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
