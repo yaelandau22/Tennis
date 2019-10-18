@@ -1,5 +1,5 @@
 # Tennis
-Unity Project for Tennis game with Kinect V2 device.
+Unity Project for Tennis game with Kinect V2 device to recognize user motion.
 
 ![](http://yaellandau.com/portfolio/Unity_Tennis.gif)
 
