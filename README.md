@@ -1,7 +1,7 @@
 # Tennis
 Unity Project for Tennis game with Kinect V2 device to recognize user motion.
 
-![](http://yaellandau.com/portfolio/Unity_Tennis.gif)
+![](https://github.com/yaelandau22/Tennis/blob/master/tennis.gif)
 
 NOTE:
 The project above was developed as presentations for individual course, hence should not represent my current programming knowledge, nor gained experience.
